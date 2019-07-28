@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dymanic Tabs</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+	<style>
+		body{
+			padding-top: 40px;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="app" class="container">
+		<tabs>
+			<tab name="About us" :selected="true">
+				Here is the content for the about us tab
+			</tab>
+
+			<tab name="About Our Culture">
+				Here is the content for the about our culture tab
+			</tab>
+
+			<tab name="About Our Vision">
+				Here is the content for the about our vision tab
+			</tab>
+
+			<tab name="About Something">
+				Here is the content for the about something tab
+			</tab>
+		</tabs>
+	</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="main.js"></script>
+</body>
+</html>
